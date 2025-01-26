@@ -1,0 +1,45 @@
+.app_login{
+          padding: 2rem 4rem;
+          border: 1px solid goldenrod;
+          background-color: black;
+          text-align:  center;
+          position: relative;
+          bottom: 1400px;
+}
+.app_login-heading{
+          text-align: center;
+          color: goldenrod;
+}
+.app_login-heading h1{
+          color: white;
+}
+.app_login-input input{
+          position: relative;
+          top: 20px ;
+          width: 620px;
+          border: 1px solid goldenrod;
+          border-radius: 5px;
+          font-size: 1rem;
+          color:  white;
+          margin-right: 2rem;
+          padding: 0.75rem 1rem;
+          background-color: black;
+}
+.app_login-input button{
+          position: relative;
+          top: 19px ;
+          left :0px;
+          width: 130px;
+          height: 47px;
+          border: 1px;
+          border-radius: 5px;
+          background-color: goldenrod;
+          color: black;
+}
+@media screen and (min-width:2000px) {
+          .app_login-input{
+                    flex-direction: column;
+                    width: 100%;
+          }
+}
+

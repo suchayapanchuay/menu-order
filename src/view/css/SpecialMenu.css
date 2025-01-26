@@ -1,0 +1,78 @@
+.app_specialMenu{
+          background-color: black;
+          position: relative;
+          bottom: 0px;
+}
+.app_specialMenu-title{
+          margin-bottom: 2rem;
+          text-align: center;
+          color: goldenrod;
+}
+.app_specialMenu-title h1{
+          color: white;
+}
+.app_specialMenu-menu{
+          width: 100%;
+          margin: 2rem 0 ;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex: row;
+}
+.app_specialMenu-heading {
+          font-family: var(--font-base);
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 58.5px;
+          letter-spacing: 0.04em;
+          color: white;
+          position: relative;
+          left : 130px ;
+}
+.app_specialMenu-menu-item{
+          flex: 1;
+          width: 100%;
+          flex-direction: column;
+}
+.app_specialMenu-menu-item{
+          display: flex;
+          flex-direction: column;
+          margin: 2rem 0;
+          width: 100%;
+}
+.app_specail-img img{
+          width: 20rem;
+          height: 20rem;
+          position: relative;
+          left: 50px ;
+          bottom : 50px ;
+}
+.app_specail-img1 img{
+          width: 20rem;
+          height: 20rem;
+          position: relative;
+          left: 560px ;
+          bottom : 370px ;
+}
+.app_specail-img2 img{
+          width: 20rem;
+          height: 20rem;
+          position: relative;
+          left: 1050px ;
+          bottom : 690px ;
+}
+@media  screen and (max-width: 1150px) {
+          .app_specialMenu-menu{
+                   flex-direction: column;
+                   align-items: center;
+                   width : 100% ; 
+          }
+}
+@media  screen and (max-width: 650px){
+          .app_specialMenu-heading{
+                    font-size: 35px;
+                    line-height: 48.5px;
+          }
+}
+
+

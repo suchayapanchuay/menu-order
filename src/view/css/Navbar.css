@@ -1,0 +1,119 @@
+.app_navbar{
+    width: 100%;
+    display: flex;
+    justify-self: space-between;  
+    align-items: center;
+    background-color: black;  
+    padding: 1rem 2rem;
+}
+.app_navbar-logo{
+    font-size: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+.app_navbar-links{
+    flex : 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.app_navbar-links li a{
+    margin: 0 1rem;
+    cursor: pointer;
+    color: white;
+}
+.app_navbar-links li a:hover{
+    color: gray;
+}
+.app_navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.app_navbar-login a{
+    margin: 0rem 1rem;
+    text-decoration: none;
+    transition: .5s ease ;
+    color: white;
+}
+.app_navbar-login a:hover{
+    border-bottom: 1px solid goldenrod ;
+}
+.app_navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: gray;
+}
+.app_navbar-smallscreen{
+    display: none;
+}
+.app_navbar-smallscreen-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh ;
+    background-color: black;
+    transition: .5s ease ;
+    flex-direction: column;
+    z-index: 5;
+}
+.app_navbar-smallscreen-overlay .overlay_close{
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top : 20px;
+    right: 20px;
+}
+.app_navbar-smallscreen-links{
+    list-style: none;
+}
+.app_navbar-smallscreen-links li {
+    cursor: pointer;
+    margin: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+.app_navbar-smallscreen-links li a{
+    color: goldenrod;
+    font-size: 2rem;
+}
+.app_navbar-smallscreen-links li a:hover{
+    color:   white;
+}
+
+
+@media screen and (max-width : 1150px) {
+    .app_navbar-links{
+        display: none;
+    }
+    .app_navbar-smallscreen{
+        text-align: right;
+        display: block;
+        margin: auto;
+    }
+    .app_navbar-login{
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .app_navbar{
+        padding: 1rem;
+    }
+    .app_navbar-login{
+        display: none;
+    }
+}
+
+
+
+
+
+
+

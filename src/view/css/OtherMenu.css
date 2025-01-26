@@ -1,0 +1,115 @@
+.other-menu{
+          background-color: black;
+          position: relative;
+          bottom: 500px;
+}
+.other-menu-title{
+          margin-bottom: 2rem;
+          text-align: center;
+          color: goldenrod;
+          position: relative;
+}
+.other-menu-title h1{
+          color: white;
+}
+.other-menu-coffee{
+          width: 100%;
+          margin: 2rem 0 ;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex: row;
+}
+.ther-menu-coffee-heading{
+          color: white;
+          font-family: var(--font-base);
+          font-size: 25px;
+          position: relative;
+          text-align: center;
+}
+.ther-menu-coffee-item{
+          flex: 1;
+          width: 100%;
+          flex-direction: column;
+}
+.other-menu-matchaTea{
+          width: 100%;
+          margin: 2rem 0 ;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex: row;
+}
+.ther-menu-matchaTea-heading{
+          color: white;
+          font-family: var(--font-base);
+          font-size: 25px;
+          position: relative;
+          text-align: center;
+}
+.other-menu-food{
+          width: 100%;
+          margin: 2rem 0 ;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex: row;
+}
+.ther-menu-food-heading{
+          color: white;
+          font-family: var(--font-base);
+          font-size: 25px;
+          position: relative;
+          text-align: center;
+}
+.menu-img1 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 78px ;
+          bottom : 20px ;
+}
+.menu-img2 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 259px ;
+          bottom : 185.5px ;
+}
+.menu-img3 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 437px ;
+          bottom : 350px ;
+}
+.menu-img4 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 618px ;
+          bottom : 515px ;
+}
+.menu-img5 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 798px ;
+          bottom : 680px ;
+}
+.menu-img6 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 979px ;
+          bottom : 842.5px ;
+}
+.menu-img7 img{
+          width: 10rem;
+          height: 10rem;
+          position: relative;
+          left: 1158px ;
+          bottom : 1005.5px ;
+}
+
+

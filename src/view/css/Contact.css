@@ -1,0 +1,68 @@
+.app_contact{
+          width: 100%;
+          position: relative;
+          z-index: 1;
+          display: flex;
+          justify-content: flex-start;
+          text-align: center;
+          align-items: center;
+          flex-direction: column;
+          padding-top: 0;
+          background-color: black;
+          position: relative;
+          bottom : 1950px;
+}
+.app_contact-link{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-top: 5rem;
+          padding: 0 2rem;
+          color: goldenrod ;
+}
+.app_contact-link-contect,
+.app_contact-link-logo,
+.app_contact-link-work{
+          flex : 1;
+          margin: 1rem;
+          text-align: center;
+}
+.app_contact-link-work p:nth-child(2n + 1){
+          margin-bottom: 1rem;
+}
+.app_contact-link-icons{
+          margin-top: 0.5rem;
+}
+.app_contact-link-icons svg{
+          color: wheat;
+          margin: 0.5rem;
+          font-size: 24px;
+          cursor: pointer;
+}
+.app_contact-link-icons svg:hover{
+          color : goldenrod
+}
+.app_contact-headtext{
+          color : white;
+          font-weight: 400;
+          letter-spacing: 0.04em;
+          text-transform: capitalize;
+          font-size: 32px;
+          line-height: 41.6px;
+          margin-bottom: 1rem;
+}
+@media screen and(max-width:2000px) {
+          
+}
+@media screen and(max-width:1150px) {
+          
+}
+@media screen and(max-width:650px) {
+          
+}
+@media screen and(max-width:350px) {
+          
+}
+
+
